@@ -1,0 +1,65 @@
+*{
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+.class{
+    background-color: azure;
+    color: antiquewhite;
+}
+
+#heroSection{
+    background-color: aquamarine;
+    color: aliceblue;
+    padding-top: 4px;
+}
+
+#clinSection{
+    background-color: gray;
+    color: azure;
+    padding-right: 222px;
+    padding-top: 11px;
+    padding-left: 111px;
+    padding-bottom: 55px;
+}
+.parent{
+    background-color: aqua;
+    padding-right: 55px;
+}
+.chill{
+    background-color: brown ;
+}
+.chill2{
+    background-color: antiquewhite;
+    padding-right: 100px;
+}
+.komunitasParent{
+    background-color: antiquewhite;
+    padding: 4px;
+    padding-left: 4px;
+}
+.komunitasChill{
+    background-color: aquamarine;
+    padding: 4px;
+    margin-right: 55px;
+    margin-left: 66px;
+}
+.komunitasChill2{
+    background-color: blueviolet;
+}
+h2,
+h3,
+h4{
+    background-color: black;
+    color: white;
+}
+input[name=username] {
+    background-color: blueviolet;
+    border-radius: 10px;
+}
