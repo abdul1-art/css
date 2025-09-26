@@ -1,0 +1,43 @@
+h1{
+    background-color: aqua;
+    text-align: center;
+}
+.asik{
+    background-color: aqua;
+    border-radius: 9px;
+    color: aliceblue;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+.asik1{
+    background-color: antiquewhite;
+    color: aquamarine;
+    margin: 5px;
+    padding: 30px;
+}
+.asik2{
+    background-color: blue;
+    padding: 30px;
+    margin: 20px;
+}
+.box{
+    background-color: blueviolet;
+    padding: 60px;
+    color: antiquewhite;
+}
+.box2{
+    background-color: aquamarine;
+    color: brown;
+    padding: 40px;
+    margin-top: 20px;
+}
+.box3{
+    background-color: burlywood;
+    padding: 10px;
+    margin-top: 20px;
+}
+h5{
+    color: hsl(324, 70%, 40%);
+}
