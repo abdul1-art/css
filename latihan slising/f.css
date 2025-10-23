@@ -1,0 +1,25 @@
+button{
+    background-color: rgba(215, 96, 199, 1);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-radius: 5px;
+}
+@media (min-width:361px){
+    .r{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+    .y{
+        padding-left: 50px;
+    }
+    .t{
+        padding-right: 50px;
+    }
+}

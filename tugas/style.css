@@ -1,0 +1,46 @@
+h2{
+    color: blue;
+}
+hr{
+    border: 1px solid darkcyan;
+}
+.text{
+    font-weight: bolder;
+}
+.text-size{    
+    color: red;
+    font-size: larger;
+}
+.text2-size{
+    font-size: small;
+}
+.text-under{
+    text-decoration: underline;
+}
+.text-over{
+    text-decoration: overline;
+}
+.text-line{
+    text-decoration: line-through;
+}
+.textcen{
+    text-align: center;
+}
+.textright{
+    text-align: right;
+}
+.text-upper{
+    text-transform: uppercase;
+}
+.text-lower{
+    text-transform: lowercase;
+}
+.text-capi{
+    text-transform: capitalize;
+}
+.text-letter{
+    letter-spacing: 5px;
+}
+.text-word{
+    word-spacing: 5px;
+}

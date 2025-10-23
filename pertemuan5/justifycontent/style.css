@@ -1,0 +1,36 @@
+.ehe{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    justify-content: center;
+}
+.ehe2{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+   justify-content: end;
+}
+.ehe3{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    justify-content: safe;
+}
+.ehe4{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    justify-content: space-evenly;
+}
+.ehe5{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    justify-content: space-between;
+}
+.ehe6{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    justify-content: space-around;
+}
