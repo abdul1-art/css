@@ -1,4 +1,5 @@
 * {
+  font-family: "Montserrat";
   padding: 0;
   margin: 0;
 }
@@ -16,9 +17,11 @@ h1 {
   justify-content: space-between;
   /* background-color: red; */
   margin: 0 5%;
+  margin-top: 5%;
 }
 button {
-  background-color: blue;
+  background-color: #5222d0;
+  border: none;
   color: white;
   padding-left: 10px;
   padding-right: 10px;
@@ -50,7 +53,7 @@ button {
   justify-content: center;
   text-align: center;
 }
-.container-about{
+.container-about {
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -59,26 +62,29 @@ button {
   letter-spacing: 1px;
   padding-top: 50px;
 }
-.chiild-about{
+.chiild-about {
   padding-top: 10px;
 }
-#project{
+#project {
   padding-left: 20px;
 }
-.img-project{
+.img-project {
   padding-top: 20px;
-  padding-bottom: 10px; 
-}
-h3{
-  padding-top: 50px;
-}
-h4{
   padding-bottom: 10px;
 }
-.chiild2-project{
+h3 {
+  padding-top: 50px;
+}
+h4 {
+  padding-bottom: 10px;
+}
+.chiild2-project {
   padding-top: 10px;
 }
-.button-project{    
+.container-project {
+  padding-right: 10px;
+}
+.button-project {
   margin-top: 10px;
   margin-left: 50px;
   padding-left: 40px;
@@ -86,22 +92,58 @@ h4{
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.subjudul-skills{
+.subjudul-skills {
   padding-top: 50px;
   padding-bottom: 30px;
 }
-.container-skills{
+.container-skills {
   padding-left: 20px;
 }
-.img-skills{
-  letter-spacing: 30px;
+.img-skills {
+  letter-spacing: 20px;
   line-height: 150px;
+  text-align: center;
+}
+.chill-icon {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.icon-project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.chilld-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.logo {
+  display: none;
+}
+
+.text-about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.line {
+  background-color: #5222d0;
+  width: 30px;
+  height: 200px;
+}
+.chiild-project {
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 @media (min-width: 361px) {
-  .navigasion {
-    padding-top: 10px;
-  }
-
   .Project {
     padding-left: 620px;
     padding-top: 10px;
@@ -124,60 +166,103 @@ h4{
     margin: 0 5%;
   }
   .right-hero {
+    width: 350px;
     order: 1;
     padding-top: 100px;
     /* padding-right: 70px; */
   }
   .left-hero {
     /* padding-left: 100px; */
-    padding-top: 150px;
+    /* background-color: red; */
+    width: 30%;
+    padding-top: 120px;
     text-align: left;
   }
   h1 {
     padding-top: 5px;
     padding-bottom: 15px;
     /* padding-left: 80px; */
+    color: blue;
   }
   .left2-hero {
     padding-bottom: 20px;
     /* padding-left: 80px; */
   }
   .left3-hero {
+    font-family: "tinos";
     padding-left: 5px;
     padding-bottom: 10px;
   }
-  .container-about{
-    padding-top: 300px;
+  .container-about {
+    padding-top: 200px;
     padding-left: 80px;
   }
-  #project{
-    margin: 5%;
+  #project {
+    margin: 10%;
   }
 
-
-  .container-project{
+  .container-project {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 0% 5%;
   }
-  .img-project{
+  .img-project {
     width: 500px;
   }
-  h3{
-    padding-left: 180px;
+  .button-project {
+    display: flex;
   }
-  .button-project{
-    display: block; 
-  }
-  .container-skills{
+  .container-skills {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
-  .img-skills{
-    letter-spacing: 100px;
+  .subjudul-skills {
+    padding-left: 55px;
+  }
+  .img-skills {
+    letter-spacing: 150px;
     line-height: 200px;
     text-align: center;
+  }
+  .button-project {
+    margin-top: 60px;
+  }
+  .button-hero {
+    background-color: blueviolet;
+  }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 620px;
+    padding-top: 70px;
+  }
+  .icon-project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+  }
+  .chilld-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .chill-icon {
+    /* background-color: red; */
+    width: 200px;
+  }
+  .chiild-about {
+    width: 700px;
   }
 }

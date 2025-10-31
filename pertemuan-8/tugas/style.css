@@ -1,0 +1,68 @@
+body {
+  font-family: "Cormorant Garamond", serif;
+}
+.head {
+  text-align: center;
+  background-color: rgba(249, 248, 243, 1);
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+h1 {
+  font-size: xxx-large;
+}
+.cormorant-one {
+  display: flex;
+  flex-direction: row;
+}
+.cormorant2 {
+  font-weight: lighter;
+}
+.italic {
+  font-style: italic;
+}
+.reguler {
+  font-weight: 400;
+}
+.ital {
+  font-style: italic;
+}
+.medium {
+  font-size: medium;
+}
+.itali {
+  font-style: italic;
+}
+.semibold {
+  font-weight: bolder;
+}
+.semiit {
+  font-style: italic;
+}
+.bold {
+  font-weight: bold;
+}
+.boldit {
+  font-style: italic;
+}
+.quick {
+  width: 300px;
+  font-size: x-large;
+}
+.cormorant-small {
+  width: 300px;
+  font-size: small;
+}
+.abc {
+  width: 300px;
+  letter-spacing: 5px;
+  font-size: large;
+  font-weight: 300;
+}
+.aabb {
+  background-color: rgba(249, 248, 243, 1);
+  font-weight: 400;
+  font-size: xxx-large;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}

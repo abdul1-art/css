@@ -1,0 +1,39 @@
+body{
+  font-family: "Cormorant Garamond", serif;
+
+}
+#hero-two{
+    padding-top: 50px;
+}
+.two-doors{
+    width: 500px;
+}
+.two-doorss{
+    width: 600px;
+}
+.chilld-ct{
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+.container{
+    text-align: center;
+}
+h1{
+    font-size: xxx-large;
+}
+.ct{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.chilld-two{
+    font-size: xxx-large;
+    font-weight: 300;
+}
+.chilld-heading{
+    padding-left: 100px;
+}
+.the-end{
+    padding-left: 100px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,14 @@
+.card-one{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    position: relative;
+}
+.header-content-card{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
