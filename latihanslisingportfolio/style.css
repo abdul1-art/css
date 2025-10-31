@@ -149,7 +149,7 @@ h4 {
     padding-top: 10px;
   }
   h5 {
-    /* padding-left: 120px; */
+    padding-left: 3px;
     padding-top: 15px;
   }
   button {
@@ -208,16 +208,13 @@ h4 {
   .img-project {
     width: 500px;
   }
-  .button-project {
-    display: flex;
-  }
   .container-skills {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
   .subjudul-skills {
-    padding-left: 55px;
+    padding-left: 105px;
   }
   .img-skills {
     letter-spacing: 150px;
@@ -225,7 +222,11 @@ h4 {
     text-align: center;
   }
   .button-project {
-    margin-top: 60px;
+    text-decoration: underline;
+    margin-top: 40px;
+    margin-left: 370px;
+    padding-left: 70px;
+    padding-right: 70px;
   }
   .button-hero {
     background-color: blueviolet;
@@ -264,5 +265,13 @@ h4 {
   }
   .chiild-about {
     width: 700px;
+  }
+  .chiild-project{
+    padding-right: 10px;
+  }
+  .line{
+    width: 5px;
+    height: 100px;
+    border-radius: 20px;
   }
 }
