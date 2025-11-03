@@ -50,10 +50,16 @@ h1 {
   font-size: small;
 }
 .abc {
-  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* width: 50%; */
+  margin-left: 24%;
+  margin-right: 24%;
   letter-spacing: 5px;
-  font-size: large;
+  font-size: xx-large;
   font-weight: 300;
+  /* background-color: antiquewhite; */
 }
 .aabb {
   background-color: rgba(249, 248, 243, 1);

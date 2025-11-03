@@ -4,6 +4,9 @@ body{
 }
 #hero-two{
     padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .two-doors{
     width: 500px;
@@ -12,14 +15,14 @@ body{
     width: 600px;
 }
 .chilld-ct{
-    font-size: xxx-large;
+    font-size: 10   0px;
     font-weight: bolder;
 }
 .container{
     text-align: center;
 }
 h1{
-    font-size: xxx-large;
+    font-size: 150px;
 }
 .ct{
     display: flex;
@@ -27,7 +30,7 @@ h1{
     justify-content: space-evenly;
 }
 .chilld-two{
-    font-size: xxx-large;
+    font-size: 100px;
     font-weight: 300;
 }
 .chilld-heading{
