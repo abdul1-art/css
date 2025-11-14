@@ -1,0 +1,32 @@
+.line button{
+    padding: 8px 16px;
+    background-color: yellow;
+
+    border: 2px solid blue;
+}
+
+
+
+
+line h1{
+    border-style: dashed;
+    border-color: blue;
+    border-width: 3px;
+}
+
+.garis p{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    padding: 16px;  
+    border-radius: 0 0 12px;
+}
+
+.box-one{
+    width: 300px;
+    padding: 20px;
+
+    border: 20px solid transparent;
+    border-image: url(./daniel-olah-2lMK4dgqwFM-unsplash.jpg);
+    border-image-slice: 30;
+}

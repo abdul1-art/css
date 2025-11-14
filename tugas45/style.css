@@ -1,0 +1,39 @@
+.solid p {
+  border: 3px solid black;
+}
+.radius p {
+  border: 3px solid #018fd9;
+  border-radius: 7px;
+}
+.dashed p {
+  border: 3px dashed #eb5353;
+}
+.dot p {
+  border: 3px dotted #a369bb;
+}
+.double p {
+  border: 5px double #89e2af;
+}
+.grov p {
+  border: 3px groove #34034a;
+}
+.inset p {
+  border: 3px inset #882b00;
+}
+.out p {
+  border: 3px outset #1d9adc;
+}
+.rid p {
+  border: 3px ridge #ef6861;
+}
+.rainbow p {
+  border-top: 4px solid #e6382a;
+  border-left: 4px solid #f1c200;
+  border-bottom: 4px solid #12cd6e;
+  border-right: 4px solid #2e97db;
+}
+.grad p{
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to left, red , blue)  1;
+}
