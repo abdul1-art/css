@@ -59,22 +59,5 @@
     padding: 50px 20px;
 }
 .img-batik {
- background-image: url(./assets/34f92a9c68b6e79a6f95f8ee052cb5059bdb3a8c.jpg);
-  background-size: cover;
-}
-
-.img-batik::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(255, 255, 255, 0.7); 
-}
-
-#hero * {
-  position: relative;
-  z-index: 2;
-}
-.icon *{
-    position: relative;
-    z-index: 2;
+ background-image: url(./assets/Background\ Doodle.png);
 }

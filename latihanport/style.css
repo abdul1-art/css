@@ -146,7 +146,83 @@ h4{
 .quotus{
   padding: 50px 50px;
 }
-
+.container-four{
+  display: flex;
+  flex-direction: column;
+  padding: 50px 90px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #FCFAF5;
+}
+.text-lets h2{
+  font-size: 45px;
+  width: 200px;
+}
+.text-lets p{
+  color: #2D2D2D;
+  padding: 20px 0px;
+}
+.text-lets button{
+  padding: 15px 45px;
+  border-radius: 10px;
+  border: none;
+  background-color: #F8D57E;
+  color: #2D2D2D;
+  margin: 10px 0px;
+}
+.img-png img{
+  padding: 35px 0px;
+}
+.petfod{
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+}
+.end p{
+  padding-left: 10px;
+}
+.email p{
+  padding: 1% 10px;
+}
+.email input{
+  padding: 10px 90px;
+  margin: 10px 10px;
+}
+.button button{
+  padding: 10px 160px;
+  background-color: #3366FF;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin: 5px 10px;
+}
+.shop{
+  font-weight: 600;
+  padding: 20px 5px;
+}
+.shop p{
+  padding: 5px 10px;
+}
+.police{
+  font-weight: 600;
+  padding: 20px 5px;
+}
+.police p{
+  padding: 5px 10px;
+}
+.logos{
+  padding: 10px 0px;
+}
+.logos img{
+  padding: 0px 10px;
+}
+.pes{
+  display: none;
+}
+.sho{
+  display: none;
+}
 @media (min-width: 361px) {
     nav p{
         display: block;
@@ -178,6 +254,7 @@ h4{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
     padding: 70px 50px;
   }
   .pet{
@@ -185,7 +262,7 @@ h4{
     flex-direction: column;
     align-items: start;
     text-align: left;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
   }
   .pet h1{
     font-size: 85px;
@@ -199,8 +276,9 @@ h4{
 }
 
 .img-hero img{
-  width: 380px;
-  height: 350px;
+  width: 500px;
+  height: 450px;
+  border-radius: 20px;
 }
 #video iframe{
     width: 600px;
@@ -223,5 +301,41 @@ h4{
 }
 .pet-food{
   padding-top: 30px;
+}
+.container-tree{
+  display: flex;
+  flex-direction: row;
+  padding: 50px 250px;
+}
+.img img{
+  width: 350px;
+}
+.container-four{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text-lets{
+  text-align: left;
+}
+.text-lets h2{
+  font-size: 70px;
+  font-weight: 900;
+  width: 400px; 
+}
+.text-lets p{
+  width: 300px;
+}
+.img-png img{
+  width: 400px;
+}
+.end{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.polic{
+  display: flex;
+  flex-direction: row;
 }
 }
