@@ -35,10 +35,6 @@
   "Quick spacing (p/m)": {
     "scope": "css,scss",
     "prefix": "padmar",
-    "body": [
-      "padding: ${1:10px};",
-      "margin: ${2:0};",
-      "$0"
-    ]
+    "body": ["padding: ${1:10px};", "margin: ${2:0};", "$0"]
   }
 }
