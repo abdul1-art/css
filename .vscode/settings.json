@@ -1,3 +1,29 @@
 {
+  "editor.snippetSuggestions": "top",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "editor.suggestSelection": "first",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "emmet.includeLanguages": {
+    "javascript": "javascript",
+    "html": "html",
+    "css": "css"
+  },
+  "css.validate": true,
+  "html.validate.scripts": true,
+  "liveServer.settings.host": "127.0.0.1",
+  "liveServer.settings.port": 5500,
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.tabCompletion": "on",
+  "editor.parameterHints.enabled": true,
+  "editor.inlineSuggest.enabled": true
+}
+{
   "livePreview.defaultPreviewPath": "/latihanport/tugas45/index.html"
 }

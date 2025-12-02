@@ -1,0 +1,44 @@
+{
+  "Center with Flex": {
+    "scope": "css,scss",
+    "prefix": "center-flex",
+    "body": [
+      "display: flex;",
+      "align-items: center;",
+      "justify-content: center;",
+      "flex-direction: ${1:row};",
+      "$0"
+    ]
+  },
+
+  "Rounded container": {
+    "scope": "css,scss",
+    "prefix": "container-rc",
+    "body": [
+      "background-color: ${1:#f5f5f5};",
+      "padding: ${2:24px};",
+      "border-radius: ${3:8px};",
+      "$0"
+    ]
+  },
+
+  "Box with shadow": {
+    "scope": "css,scss",
+    "prefix": "box-shadow",
+    "body": [
+      "box-shadow: 0 ${1:4px} ${2:10px} rgba(0,0,0,0.15);",
+      "border-radius: ${3:6px};",
+      "$0"
+    ]
+  },
+
+  "Quick spacing (p/m)": {
+    "scope": "css,scss",
+    "prefix": "padmar",
+    "body": [
+      "padding: ${1:10px};",
+      "margin: ${2:0};",
+      "$0"
+    ]
+  }
+}

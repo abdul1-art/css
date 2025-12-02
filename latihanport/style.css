@@ -245,7 +245,7 @@ h4{
     display: block;
   }
   .sig-up {
-    padding-left: 700px;
+    padding-left: 850px;
   }
   /* #hero{
     margin: 15px;
@@ -337,5 +337,5 @@ h4{
 .polic{
   display: flex;
   flex-direction: row;
-}
+} 
 }
