@@ -1,0 +1,11 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: rgba(234, 161, 84, 1);
+}
+nav .naf {
+  display: flex;
+  gap: 20px;
+}
