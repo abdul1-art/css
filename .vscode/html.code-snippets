@@ -1,0 +1,56 @@
+{
+  "HTML5 Boilerplate": {
+    "scope": "html",
+    "prefix": "html5",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"en\">",
+      "<head>",
+      "  <meta charset=\"UTF-8\">",
+      "  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "  <title>${1:Document}</title>",
+      "</head>",
+      "<body>",
+      "  $0",
+      "</body>",
+      "</html>"
+    ]
+  },
+
+  "Nested .asik layout": {
+    "scope": "html",
+    "prefix": "asiknest",
+    "body": [
+      "<div class=\"asik\">",
+      "  ${1:Main content}",
+      "  <div class=\"asik1\">",
+      "    ${2:Sub content}",
+      "    <div class=\"asik2\">",
+      "      ${3:Inner text}",
+      "    </div>",
+      "  </div>",
+      "</div>$0"
+    ]
+  },
+
+  "Box2 with box3": {
+    "scope": "html",
+    "prefix": "boxstack",
+    "body": [
+      "<div class=\"box2\">",
+      "  Lorem ipsum dolor sit.",
+      "  <div class=\"box3\">",
+      "    <h3>${1:Title}</h3>",
+      "  </div>",
+      "</div>$0"
+    ]
+  },
+
+  "Image from assets folder": {
+    "scope": "html",
+    "prefix": "assetimg",
+    "body": [
+      "<img src=\"assets/${1:filename.png}\" alt=\"${2:description}\">$0"
+    ]
+  }
+}

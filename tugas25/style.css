@@ -1,0 +1,27 @@
+body {
+  background: #3c43c7;
+  background: linear-gradient(
+    90deg,
+    rgba(60, 67, 199, 1) 5%,
+    rgba(212, 99, 128, 1) 95%
+  );
+}
+.herotext {
+    color: white;
+    padding: 100px 50px;
+}
+.herotext h1 {
+    font-size: 60px;
+    width: 400px;
+}
+.herotext p {
+    width: 400px;
+}
+button{
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+}
+.image{
+    float: right;
+}

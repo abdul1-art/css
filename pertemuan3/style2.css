@@ -1,0 +1,27 @@
+h1{
+    background-color: blue;
+    text-align: center;
+    padding: 3px;
+}
+p{
+    color: black;
+    background-color: gray;
+    padding: 20px;
+    margin: 15px;
+}
+.kotak{
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    margin: auto;
+    padding: 10px;
+}
+#tombol{
+    background-color: orange;
+    color: white;
+    padding: 8px;
+    margin: 16px;   
+}
+#tombol:hover{
+    background-color: red;
+}

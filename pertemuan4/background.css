@@ -1,0 +1,31 @@
+    
+
+
+
+
+
+
+body{
+    background-image: url(daniel-olah-2lMK4dgqwFM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+div{
+    background: #33a5d6;
+background: linear-gradient(90deg, rgba(51, 165, 214, 1) 10%, rgba(196, 57, 140, 1) 100%, rgba(134, 32, 189, 1) 13%);
+}
+h3{
+    background: #312d87;
+background: linear-gradient(90deg, rgba(49, 45, 135, 1) 0%, rgba(16, 16, 87, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}

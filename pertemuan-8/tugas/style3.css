@@ -1,0 +1,43 @@
+body{
+  font-family: "Cormorant Garamond", serif;
+
+}
+#hero-two{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.two-doors{
+    width: 500px;
+}
+.two-doorss{
+    width: 600px;
+}
+.chilld-ct{
+    font-size: 100px;
+    font-weight: bolder;
+}
+.container{
+    text-align: center;
+}
+h1{
+    font-size: 150px;
+}
+.ct{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.chilld-two{
+    font-size: 100px;
+    font-weight: 300;
+    padding-left: 20px;
+}
+.chilld-heading{
+    padding-left: 100px;
+}
+.the-end{
+    padding-left: 100px;
+    margin-bottom: 100px;
+}

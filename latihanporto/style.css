@@ -1,0 +1,277 @@
+* {
+  font-family: "Montserrat";
+  padding: 0;
+  margin: 0;
+}
+h5 {
+  padding-top: 12px;
+}
+h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navigasion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: red; */
+  margin: 0 5%;
+  margin-top: 5%;
+}
+button {
+  background-color: #5222d0;
+  border: none;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  border-radius: 5px;
+}
+.Project {
+  padding-left: 120px;
+  padding-top: 10px;
+}
+.container-hero {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left2-hero {
+  padding-bottom: 15px;
+}
+/* .button-hero{
+    margin-left: 80px;
+} */
+.left-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.container-about {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 20px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  padding-top: 50px;
+}
+.chiild-about {
+  padding-top: 10px;
+}
+#project {
+  padding-left: 20px;
+}
+.img-project {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+h3 {
+  padding-top: 50px;
+}
+h4 {
+  padding-bottom: 10px;
+}
+.chiild2-project {
+  padding-top: 10px;
+}
+.container-project {
+  padding-right: 10px;
+}
+.button-project {
+  margin-top: 10px;
+  margin-left: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.subjudul-skills {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.container-skills {
+  padding-left: 20px;
+}
+.img-skills {
+  letter-spacing: 20px;
+  line-height: 150px;
+  text-align: center;
+}
+.chill-icon {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.icon-project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.chilld-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.logo {
+  display: none;
+}
+
+.text-about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.line {
+  background-color: #5222d0;
+  width: 30px;
+  height: 200px;
+}
+.chiild-project {
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+@media (min-width: 361px) {
+  .Project {
+    padding-left: 620px;
+    padding-top: 10px;
+  }
+  h5 {
+    padding-left: 3px;
+    padding-top: 15px;
+  }
+  button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    /* margin-right: 70px; */
+  }
+  .container-hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 5%;
+  }
+  .right-hero {
+    width: 350px;
+    order: 1;
+    padding-top: 100px;
+    /* padding-right: 70px; */
+  }
+  .left-hero {
+    /* padding-left: 100px; */
+    /* background-color: red; */
+    width: 30%;
+    padding-top: 120px;
+    text-align: left;
+  }
+  h1 {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    /* padding-left: 80px; */
+    color: blue;
+  }
+  .left2-hero {
+    padding-bottom: 20px;
+    /* padding-left: 80px; */
+  }
+  .left3-hero {
+    font-family: "tinos";
+    padding-left: 5px;
+    padding-bottom: 10px;
+  }
+  .container-about {
+    padding-top: 200px;
+    padding-left: 80px;
+  }
+  #project {
+    margin: 10%;
+  }
+
+  .container-project {
+    display: flex;
+    flex-direction: row;
+  }
+  .img-project {
+    width: 500px;
+  }
+  .container-skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .subjudul-skills {
+    padding-left: 105px;
+  }
+  .img-skills {
+    letter-spacing: 150px;
+    line-height: 200px;
+    text-align: center;
+  }
+  .button-project {
+    text-decoration: underline;
+    margin-top: 40px;
+    margin-left: 370px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .button-hero {
+    background-color: blueviolet;
+  }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 625px;
+    padding-top: 70px;
+  }
+  .icon-project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+  }
+  .chilld-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .chill-icon {
+    /* background-color: red; */
+    width: 200px;
+  }
+  .chiild-about {
+    width: 700px;
+  }
+  .chiild-project{
+    padding-right: 10px;
+  }
+  .line{
+    width: 5px;
+    height: 100px;
+    border-radius: 20px;
+  }
+}

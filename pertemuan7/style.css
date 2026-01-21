@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "motterdam";
+  src: url(./motterdam/Motterdam.ttf);
+}
+p {
+  font-family: "motterdam";
+  font-size: xx-large;
+}

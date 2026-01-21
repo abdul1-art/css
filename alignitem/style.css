@@ -1,0 +1,22 @@
+
+.ehe{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: aqua;
+    align-items: center;
+}
+.ehe2{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: aqua;
+    align-items: last baseline;
+}
+.ehe3{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: aqua;
+    align-items: flex-end;
+}

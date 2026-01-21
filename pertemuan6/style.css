@@ -1,0 +1,29 @@
+p{
+    text-align: center;
+}
+.arab{
+    direction: rtl;
+}
+.text-dec{
+    text-decoration: underline;   
+}
+.text-space{
+    /* untuk mengatur indentasi */
+    text-indent: 20px;
+    /* untuk mengatur jarak spasi antar huruf */
+    letter-spacing: 20px;
+    /* untuk mengatur jarak antar baris */
+    line-height: 100px;
+    /* untuk mengatur jarak antar kata */
+    word-spacing: 50px;
+    /* untuk mengatur jarak white space pada text */
+    white-space: inherit;
+    
+}
+.text-over{
+    width: 320px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-shadow: 4px 4px 8px aqua;
+}

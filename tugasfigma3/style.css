@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.navigasion{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 143, 12, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 50px 30px;
+}
+.nav{
+    display: flex;
+    padding-left: 630px;
+}
+.nav p{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+.container-hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 200px;
+}
+.text h2{
+    font-size: 50px;
+}
+.text p{
+    color: rgba(255, 143, 12, 1);
+    font-size: 50px;
+    font-weight: 900;
+}
+.text h4{
+    font-size: 20px;
+    font-weight: 900;
+}
+.text button{
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 143, 12, 1);
+    color: rgba(255, 255, 255, 1);
+    margin-top: 20px;
+}
+.icon p{
+    color: black;
+    font-weight: 900;
+    font-size: 30px;
+}
+.icon{
+    text-align: center;
+}
+.icon-lan img{
+    width: 50px;
+    padding: 50px 20px;
+}
+.img-batik {
+ background-image: url(./assets/Background\ Doodle.png);
+}

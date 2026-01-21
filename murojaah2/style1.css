@@ -1,0 +1,26 @@
+
+.hero{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   margin: 0 5%;
+}
+
+.colom1{
+    background-color: aquamarine;
+   order: 1; 
+}
+.colom2{
+    background-color: bisque;
+}
+button{
+    background-color: blueviolet;
+    color: white;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}

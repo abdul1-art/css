@@ -1,0 +1,57 @@
+body {
+  height: 1000px;
+  background-color: aqua;
+}
+.card-one {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+}
+.card-two {
+  width: 200px;
+  height: 200px;
+  background-color: azure;
+  position: relative;
+  left: 190px;
+}
+.card-tree {
+  width: 200px;
+  height: 200px;
+  background-color: beige;
+  position: absolute;
+  left: 390px;
+}
+hr{
+    height: 1000px;
+    margin-top: 220px;
+}
+.box-one {
+  width: 200px;
+  height: 200px;
+    background-color: violet;
+  position: relative;
+}
+.box-two{
+    background-color: blanchedalmond;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 5px;
+}
+.box-tree{
+    position: fixed;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    right: 500px;
+}
+.box-four{
+    position: sticky;
+    background-color: burlywood;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    left: 10px;
+    right: 500px;
+}
