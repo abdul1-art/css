@@ -2,8 +2,8 @@ body {
   background: #3c43c7;
   background: linear-gradient(
     90deg,
-    rgba(60, 67, 199, 1) 5%,
-    rgba(212, 99, 128, 1) 95%
+    rgba(166, 20, 115, 1) 5%,
+    rgba(5, 242, 242, 1) 95%
   );
 }
 .herotext {
@@ -17,6 +17,10 @@ body {
 .herotext p {
   width: 400px;
 }
+.text {
+  float: left;
+  padding: 120px 50px;
+}
 button {
   padding: 15px 30px;
   border-radius: 5px;
@@ -25,16 +29,17 @@ button {
 }
 .image {
   float: right;
+  padding: 50px;
 }
 .produc h1 {
   color: white;
   font-size: 60px;
-  padding: 20px 40px;
+  padding: 10px 85px;
 }
 .sepatu {
   display: flex;
   text-align: center;
   gap: 30px;
-  margin-top: 10px;
-  padding: 20px 20px;
+  margin-top: 5px;
+  padding: 10px 35px;
 }
