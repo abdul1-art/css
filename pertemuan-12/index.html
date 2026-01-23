@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="visible">
+      Secara default, nilai dari properti overflow adalah visible, yang berarti
+      bahwa itu tidak dipotong dan bisa meluber keluar dari wadah elemen.
+    </div>
+    <div class="hidden">
+      Jika Anda ingin menyembunyikan konten yang keluar dari wadahnya, yang
+      dimana lebar dan tinggi pada suatu elemen melebihi dari konten, maka
+      dengan nilai hidden lah solusinya. Nilai hidden akan memotong konten yang
+      meluber keluar dan sisanya akan disembunyikan.
+    </div>
+    <div class="scroll">
+      Jika Anda ingin menampilkan konten walaupun lebar dan tinggi pada suatu
+      elemen melebihi dari konten, maka dengan nilai scroll lah solusinya.
+      Dengan nilai scroll konten yang meluber akan dipotong dan scrollbar akan
+      ditambahkan untuk menggulir didalam kotak.
+    </div>
+    <div class="auto">
+      Jika Anda menggunakan properti overflow dengan nilai scroll, maka akan
+      menambahkan scrollbar secara horizontal dan vertikal. Namun sayangnya akan
+      menambahkan scrollbar meskipun konten tidak meluber. Untuk solusi tersebut
+      maka nilai auto lah yang bisa diandalkan. Hampir sama kegunaannya dengan
+      nilai scroll, hanya saja dengan nilai auto akan menambahkan scrollbar
+      secara vertikal jika konten meluber keluar.
+    </div>
+    <div class="sumbuy">
+      Properti overflow-y mengontrol overflow di sepanjang sumbu vertikal
+      viewport perangkat. Oleh karena itu overflow-y dapat bergeser ke atas dan
+      ke bawah.
+    </div>
+    <div class="sumbux">
+      Sedangkan properti overflow-x mengontrol overflow di sepanjang sumbu
+      horizontal viewport perangkat. Oleh karena itu overflow-x dapat bergeser
+      ke kiri dan kanan.
+    </div>
+  </body>
+</html>

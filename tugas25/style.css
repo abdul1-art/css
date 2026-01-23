@@ -7,21 +7,34 @@ body {
   );
 }
 .herotext {
-    color: white;
-    padding: 100px 50px;
+  color: white;
+  padding: 100px 50px;
 }
 .herotext h1 {
-    font-size: 60px;
-    width: 400px;
+  font-size: 60px;
+  width: 400px;
 }
 .herotext p {
-    width: 400px;
+  width: 400px;
 }
-button{
-    padding: 15px 30px;
-    border-radius: 5px;
-    border: none;
+button {
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: none;
+  color: rgba(166, 20, 115, 1);
 }
-.image{
-    float: right;
+.image {
+  float: right;
+}
+.produc h1 {
+  color: white;
+  font-size: 60px;
+  padding: 20px 40px;
+}
+.sepatu {
+  display: flex;
+  text-align: center;
+  gap: 30px;
+  margin-top: 10px;
+  padding: 20px 20px;
 }
