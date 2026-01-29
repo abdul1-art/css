@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 150px;
+}
+#hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.card-one {
+  border-radius: 15px;
+  background: #5057d4;
+  background: linear-gradient(
+    90deg,
+    rgba(80, 87, 212, 1) 14%,
+    rgba(153, 17, 49, 1) 75%
+  );
+  color: white;
+  padding: 20px;
+  width: 350px;
+}
+.card-one__card {
+  display: flex;
+  justify-content: space-between;
+}
+.card-two {
+  border-radius: 15px;
+  background: #d69672;
+  background: linear-gradient(
+    90deg,
+    rgba(214, 150, 114, 1) 0%,
+    rgba(247, 226, 134, 1) 100%
+  );
+  color: white;
+  padding: 20px;
+  width: 350px;
+}
+.card-two__card {
+  display: flex;
+  justify-content: space-between;
+}
+.card-tree {
+  border-radius: 15px;
+  background: #0d6629;
+  background: linear-gradient(
+    90deg,
+    rgba(13, 102, 41, 1) 13%,
+    rgba(156, 85, 14, 1) 100%
+  );
+  color: white;
+  padding: 20px;
+  width: 350px;
+}
+.card-tree__card {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,52 @@
+.header {
+  padding: 20px;
+  background-color: #4caf50;
+}
+.header__title {
+  font-size: 24px;
+}
+
+.navbar {
+  padding: 10px 20px;
+  /* background: rgb(255, 223, 184); */
+  border-bottom: 2px solid bisque;
+}
+.navbar__menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+.navbar__item {
+  cursor: pointer;
+  color: aqua;
+}
+.navbar--stiky {
+  position: sticky;
+  top: 0;
+}
+
+.card {
+  border: 1px solid rgb(186, 231, 83);
+  border-radius: 8px;
+  padding: 20px;
+}
+.card__title {
+  font-size: 20px;
+  color: aqua;
+}
+.card__description {
+  font-size: 16px;
+  color: gray;
+}
+.card__title--secondary {
+  color: rgb(206, 111, 111);
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(40, 194, 143);
+}

@@ -1,0 +1,61 @@
+ul {
+  list-style-type: none;
+}
+ol {
+  list-style-type: upper-roman;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  height: 100%;
+  overflow: auto;
+}
+.vert li {
+  display: block;
+  padding: 8px;
+  border-bottom: 1px solid #ffffff;
+  text-decoration: none;
+}
+li :active {
+  background-color: #f34bb0;
+  color: white;
+}
+li:hover:not(.active) {
+  background-color: #fd83e7;
+  color: white;
+}
+.hori ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(32, 188, 188);
+}
+.hori li {
+  float: left;
+}
+.hori li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.hori a:hover {
+  background-color: #ff94d6;
+  color: white;
+}
+.menu {
+  list-style-type: disc !important;
+}
+.menu li {
+  list-style-position: inside;
+  background-color: rgb(143, 237, 143);
+}
+ul.short {
+  list-style: square inside
+    url(https://assets.ubuntu.com/v1/dbf71c80-favicon.ico?);
+}
