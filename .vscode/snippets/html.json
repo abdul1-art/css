@@ -1,0 +1,247 @@
+{
+  "HTML5 Boilerplate": {
+    "prefix": "html",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"en\">",
+      "<head>",
+      "\t<meta charset=\"UTF-8\">",
+      "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "\t<title>${1:Document}</title>",
+      "\t<link rel=\"stylesheet\" href=\"style.css\">",
+      "</head>",
+      "<body>",
+      "\t$0",
+      "</body>",
+      "</html>"
+    ],
+    "description": "HTML5 boilerplate"
+  },
+  "Link CSS": {
+    "prefix": "lcss",
+    "body": ["<link rel=\"stylesheet\" href=\"style.css\">"],
+    "description": "Link CSS file"
+  },
+  "Meta Tags": {
+    "prefix": "meta",
+    "body": [
+      "<meta charset=\"UTF-8\">",
+      "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "<meta name=\"description\" content=\"${1:description}\">"
+    ],
+    "description": "Meta tags"
+  },
+  "Div Container": {
+    "prefix": "div",
+    "body": ["<div class=\"${1:container}\">", "\t$0", "</div>"],
+    "description": "Div container"
+  },
+  "Navigation": {
+    "prefix": "nav",
+    "body": [
+      "<nav class=\"${1:navbar}\">",
+      "\t<div class=\"logo\">",
+      "\t\t$2",
+      "\t</div>",
+      "\t<ul class=\"nav-links\">",
+      "\t\t<li><a href=\"#\">$3</a></li>",
+      "\t\t<li><a href=\"#\">$4</a></li>",
+      "\t\t<li><a href=\"#\">$5</a></li>",
+      "\t</ul>",
+      "</nav>"
+    ],
+    "description": "Navigation bar"
+  },
+  "Header": {
+    "prefix": "header",
+    "body": ["<header class=\"${1:header}\">", "\t$0", "</header>"],
+    "description": "Header element"
+  },
+  "Footer": {
+    "prefix": "footer",
+    "body": ["<footer class=\"${1:footer}\">", "\t$0", "</footer>"],
+    "description": "Footer element"
+  },
+  "Section": {
+    "prefix": "section",
+    "body": [
+      "<section class=\"${1:section}\">",
+      "\t<div class=\"container\">",
+      "\t\t$0",
+      "\t</div>",
+      "</section>"
+    ],
+    "description": "Section element"
+  },
+  "Card": {
+    "prefix": "card",
+    "body": [
+      "<div class=\"${1:card}\">",
+      "\t<div class=\"card-image\">",
+      "\t\t<img src=\"${2:image.jpg}\" alt=\"${3:alt text}\">",
+      "\t</div>",
+      "\t<div class=\"card-content\">",
+      "\t\t<h3>${4:Title}</h4>",
+      "\t\t<p>${5:Description}</p>",
+      "\t</div>",
+      "</div>"
+    ],
+    "description": "Card element"
+  },
+  "Button": {
+    "prefix": "btn",
+    "body": ["<button class=\"${1:btn}\">${2:Click Me}</button>"],
+    "description": "Button element"
+  },
+  "Anchor Link": {
+    "prefix": "a",
+    "body": ["<a href=\"${1:#}\" class=\"${2:link}\">${3:Link Text}</a>"],
+    "description": "Anchor link"
+  },
+  "Image": {
+    "prefix": "img",
+    "body": [
+      "<img src=\"${1:image.jpg}\" alt=\"${2:alt text}\" class=\"${3:img}\">"
+    ],
+    "description": "Image element"
+  },
+  "Unordered List": {
+    "prefix": "ul",
+    "body": [
+      "<ul class=\"${1:list}\">",
+      "\t<li>${2:Item 1}</li>",
+      "\t<li>${3:Item 2}</li>",
+      "\t<li>${4:Item 3}</li>",
+      "</ul>"
+    ],
+    "description": "Unordered list"
+  },
+  "Ordered List": {
+    "prefix": "ol",
+    "body": [
+      "<ol class=\"${1:list}\">",
+      "\t<li>${2:Item 1}</li>",
+      "\t<li>${3:Item 2}</li>",
+      "\t<li>${4:Item 3}</li>",
+      "</ol>"
+    ],
+    "description": "Ordered list"
+  },
+  "Form": {
+    "prefix": "form",
+    "body": [
+      "<form action=\"${1:#}\" method=\"${2:POST}\" class=\"${3:form}\">",
+      "\t<div class=\"form-group\">",
+      "\t\t<label for=\"${4:field}\">${5:Label}</label>",
+      "\t\t<input type=\"${6:text}\" id=\"${7:id}\" name=\"${8:name}\" required>",
+      "\t</div>",
+      "\t<button type=\"${9:submit}\">${10:Submit}</button>",
+      "</form>"
+    ],
+    "description": "Form element"
+  },
+  "Input": {
+    "prefix": "input",
+    "body": [
+      "<input type=\"${1:text}\" name=\"${2:name}\" placeholder=\"${3:Placeholder}\" class=\"${4:input}\">"
+    ],
+    "description": "Input element"
+  },
+  "Textarea": {
+    "prefix": "textarea",
+    "body": [
+      "<textarea name=\"${1:name}\" placeholder=\"${2:Placeholder}\" class=\"${3:textarea}\" rows=\"${4:4}\"></textarea>"
+    ],
+    "description": "Textarea element"
+  },
+  "Select": {
+    "prefix": "select",
+    "body": [
+      "<select name=\"${1:name}\" class=\"${2:select}\">",
+      "\t<option value=\"${3:option1}\">${4:Option 1}</option>",
+      "\t<option value=\"${5:option2}\">${6:Option 2}</option>",
+      "</select>"
+    ],
+    "description": "Select element"
+  },
+  "Google Fonts": {
+    "prefix": "gfont",
+    "body": [
+      "<link href=\"https://fonts.googleapis.com/css2?family=${1:Poppins}:wght@400;600;700&display=swap\" rel=\"stylesheet\">"
+    ],
+    "description": "Google Fonts link"
+  },
+  "Font Awesome": {
+    "prefix": "fa",
+    "body": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css\">"
+    ],
+    "description": "Font Awesome CDN"
+  },
+  "Bootstrap CSS": {
+    "prefix": "bscss",
+    "body": [
+      "<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">"
+    ],
+    "description": "Bootstrap CSS CDN"
+  },
+  "Bootstrap JS": {
+    "prefix": "bsjs",
+    "body": [
+      "<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js\"></script>"
+    ],
+    "description": "Bootstrap JS CDN"
+  },
+  "Main": {
+    "prefix": "main",
+    "body": ["<main class=\"${1:main}\">", "\t$0", "</main>"],
+    "description": "Main element"
+  },
+  "Article": {
+    "prefix": "article",
+    "body": ["<article class=\"${1:article}\">", "\t$0", "</article>"],
+    "description": "Article element"
+  },
+  "Aside": {
+    "prefix": "aside",
+    "body": ["<aside class=\"${1:aside}\">", "\t$0", "</aside>"],
+    "description": "Aside element"
+  },
+  "Span": {
+    "prefix": "span",
+    "body": ["<span class=\"${1:span}\">$0</span>"],
+    "description": "Span element"
+  },
+  "Paragraph": {
+    "prefix": "p",
+    "body": ["<p class=\"${1:paragraph}\">$0</p>"],
+    "description": "Paragraph element"
+  },
+  "Heading": {
+    "prefix": "h",
+    "body": ["<h${1:1} class=\"${2:heading}\">${3:Title}</h${1}>"],
+    "description": "Heading element"
+  },
+  "Script": {
+    "prefix": "script",
+    "body": ["<script src=\"${1:script.js}\"></script>"],
+    "description": "Script tag"
+  },
+  "Class BEM Card": {
+    "prefix": "bemc",
+    "body": [
+      "<div class=\"${1:card}\">",
+      "\t<div class=\"${1:card}__${2:header}\">",
+      "\t\t$3",
+      "\t</div>",
+      "\t<div class=\"${1:card}__${4:body}\">",
+      "\t\t$5",
+      "\t</div>",
+      "\t<div class=\"${1:card}__${6:footer}\">",
+      "\t\t$7",
+      "\t</div>",
+      "</div>"
+    ],
+    "description": "BEM card structure"
+  }
+}

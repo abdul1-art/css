@@ -1,0 +1,198 @@
+{
+  "Flexbox Container": {
+    "prefix": "fx",
+    "body": [
+      "display: flex;",
+      "flex-direction: ${1:row};",
+      "justify-content: ${2:center};",
+      "align-items: ${3:center};",
+      "gap: ${4:10px};"
+    ],
+    "description": "Quick flexbox container"
+  },
+  "Flexbox Center": {
+    "prefix": "fxc",
+    "body": [
+      "display: flex;",
+      "justify-content: center;",
+      "align-items: center;"
+    ],
+    "description": "Flexbox centering trick"
+  },
+  "Flexbox Column": {
+    "prefix": "fxcol",
+    "body": [
+      "display: flex;",
+      "flex-direction: column;",
+      "align-items: ${1:center};",
+      "gap: ${2:10px};"
+    ],
+    "description": "Flexbox column layout"
+  },
+  "Grid Container": {
+    "prefix": "gd",
+    "body": [
+      "display: grid;",
+      "grid-template-columns: repeat(${1:3}, 1fr);",
+      "gap: ${2:20px};"
+    ],
+    "description": "Quick grid container"
+  },
+  "Position Absolute Center": {
+    "prefix": "pac",
+    "body": [
+      "position: absolute;",
+      "top: 50%;",
+      "left: 50%;",
+      "transform: translate(-50%, -50%);"
+    ],
+    "description": "Absolute center positioning"
+  },
+  "Media Query Mobile": {
+    "prefix": "mqm",
+    "body": ["@media screen and (max-width: 768px) {", "\t$0", "}"],
+    "description": "Media query for mobile"
+  },
+  "Media Query Tablet": {
+    "prefix": "mqt",
+    "body": ["@media screen and (max-width: 1024px) {", "\t$0", "}"],
+    "description": "Media query for tablet"
+  },
+  "Keyframes Animation": {
+    "prefix": "kf",
+    "body": [
+      "@keyframes ${1:animationName} {",
+      "\t0% {",
+      "\t\t$2",
+      "\t}",
+      "\t100% {",
+      "\t\t$3",
+      "\t}",
+      "}"
+    ],
+    "description": "Keyframes animation"
+  },
+  "Transition": {
+    "prefix": "tr",
+    "body": ["transition: ${1:all} ${2:0.3s} ease;"],
+    "description": "Quick transition"
+  },
+  "Button Hover": {
+    "prefix": "bh",
+    "body": [
+      "&:hover {",
+      "\tbackground-color: ${1:#333};",
+      "\ttransform: scale(${2:1.05});",
+      "}"
+    ],
+    "description": "Button hover effect"
+  },
+  "Reset Box Model": {
+    "prefix": "bm",
+    "body": [
+      "* {",
+      "\tmargin: 0;",
+      "\tpadding: 0;",
+      "\tbox-sizing: border-box;",
+      "}"
+    ],
+    "description": "Reset box model"
+  },
+  "Container": {
+    "prefix": "cont",
+    "body": [
+      "max-width: ${1:1200px};",
+      "margin: 0 auto;",
+      "padding: 0 ${2:20px};"
+    ],
+    "description": "Container class"
+  },
+  "Text Truncate": {
+    "prefix": "tt",
+    "body": [
+      "white-space: nowrap;",
+      "overflow: hidden;",
+      "text-overflow: ellipsis;"
+    ],
+    "description": "Text truncate"
+  },
+  "Flex Between": {
+    "prefix": "fxb",
+    "body": [
+      "display: flex;",
+      "justify-content: space-between;",
+      "align-items: center;"
+    ],
+    "description": "Flex space between"
+  },
+  "Gradient Background": {
+    "prefix": "gb",
+    "body": [
+      "background: linear-gradient(${1:135deg}, ${2:#667eea} 0%, ${3:#764ba2} 100%);"
+    ],
+    "description": "Gradient background"
+  },
+  "Box Shadow": {
+    "prefix": "bs",
+    "body": ["box-shadow: 0 ${1:4px} ${2:6px} rgba(0, 0, 0, ${3:0.1});"],
+    "description": "Box shadow"
+  },
+  "Font Import": {
+    "prefix": "fi",
+    "body": [
+      "@import url('${1:https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap}');"
+    ],
+    "description": "Font import"
+  },
+  "Font Family": {
+    "prefix": "ff",
+    "body": ["font-family: '${1:Poppins}', ${2:sans-serif};"],
+    "description": "Font family"
+  },
+  "Border Radius": {
+    "prefix": "br",
+    "body": ["border-radius: ${1:8}px;"],
+    "description": "Border radius"
+  },
+  "Absolute Positioning": {
+    "prefix": "pa",
+    "body": [
+      "position: absolute;",
+      "top: ${1:0};",
+      "right: ${2:0};",
+      "bottom: ${3:0};",
+      "left: ${4:0};"
+    ],
+    "description": "Absolute positioning"
+  },
+  "Z-Index": {
+    "prefix": "zi",
+    "body": ["z-index: ${1:10};"],
+    "description": "Z-index"
+  },
+  "Overflow Hidden": {
+    "prefix": "oh",
+    "body": ["overflow: hidden;"],
+    "description": "Overflow hidden"
+  },
+  "Object Fit Cover": {
+    "prefix": "ofc",
+    "body": ["width: 100%;", "height: 100%;", "object-fit: cover;"],
+    "description": "Object fit cover"
+  },
+  "Flex Wrap": {
+    "prefix": "fxw",
+    "body": ["display: flex;", "flex-wrap: wrap;", "gap: ${1:20px};"],
+    "description": "Flex wrap"
+  },
+  "CSS Variable": {
+    "prefix": "cv",
+    "body": ["--${1:primary-color}: ${2:#333};"],
+    "description": "CSS variable"
+  },
+  "Calc": {
+    "prefix": "calc",
+    "body": ["calc(${1:100%} - ${2:20px});"],
+    "description": "Calc function"
+  }
+}

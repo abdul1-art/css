@@ -7,14 +7,12 @@
   align-items: center;
   padding: 10px 15px;
 }
+
 nav p {
   display: none;
 }
 .navigasion button {
   display: none;
-}
-.navigasion h3 {
-  padding-left: 10px;
 }
 #hero {
   background-color: #f2f0f8;
@@ -230,6 +228,15 @@ h4 {
     align-items: center;
     padding: 20px 50px;
   }
+  #toggle{
+    display: none;
+  }
+  .menu{
+    display: none;
+  }
+  nav .fa-solid {
+    display: none;
+  }
   .navigasion img {
     padding-left: 45px;
   }
@@ -242,7 +249,7 @@ h4 {
     display: block;
   }
   .sig-up {
-    padding-left: 850px;
+    padding-left: 700px;
   }
   /* #hero{
     margin: 15px;

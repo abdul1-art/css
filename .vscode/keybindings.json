@@ -1,0 +1,230 @@
+[
+  // ==================== NAVIGATION ====================
+  {
+    "key": "ctrl+shift+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+u",
+    "command": "editor.action.transformToUppercase",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "editor.action.transformToLowercase",
+    "when": "editorTextFocus"
+  },
+
+  // ==================== MULTI CURSOR ====================
+  {
+    "key": "ctrl+alt+down",
+    "command": "editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+up",
+    "command": "editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorTextFocus"
+  },
+
+  // ==================== FILE MANAGEMENT ====================
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
+  },
+
+  // ==================== LIVE SERVER ====================
+  {
+    "key": "alt+l o",
+    "command": "liveServer.launch",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "alt+l c",
+    "command": "liveServer.tasks.openBrowserInPreview",
+    "when": "editorTextFocus && liveServer.status == started"
+  },
+  {
+    "key": "alt+l s",
+    "command": "liveServer.export",
+    "when": "editorTextFocus"
+  },
+
+  // ==================== EMMET ====================
+  {
+    "key": "tab",
+    "command": "emmet.expandAbbreviation",
+    "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadOnly"
+  },
+
+  // ==================== AUTO RENAME TAG ====================
+  {
+    "key": "ctrl+shift+r",
+    "command": "editor.action.renameTag",
+    "when": "editorTextFocus && editorTagClasses.background"
+  },
+
+  // ==================== FORMAT ====================
+  {
+    "key": "shift+alt+f",
+    "command": "editor.action.formatDocument",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "editor.action.formatDocument",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+
+  // ==================== COMMENT ====================
+  {
+    "key": "ctrl+shift+/",
+    "command": "editor.action.blockComment",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+/",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+
+  // ==================== MOVE LINE ====================
+  {
+    "key": "alt+down",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+up",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+
+  // ==================== DUPLICATE ====================
+  {
+    "key": "ctrl+shift+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+
+  // ==================== DELETE LINE ====================
+  {
+    "key": "ctrl+shift+k",
+    "command": "editor.action.deleteLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+
+  // ==================== GO TO SYMBOL ====================
+  {
+    "key": "ctrl+shift+o",
+    "command": "outline.focus"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "editor.action.gotoLine"
+  },
+
+  // ==================== QUICK OPEN ====================
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "workbench.action.showCommands"
+  },
+
+  // ==================== TERMINAL ====================
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+shift+`",
+    "command": "workbench.action.terminal.new"
+  },
+
+  // ==================== PANEL ====================
+  {
+    "key": "ctrl+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "ctrl++",
+    "command": "workbench.action.zoomIn"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "workbench.action.zoomOut"
+  },
+
+  // ==================== SAVE ALL ====================
+  {
+    "key": "ctrl+ks",
+    "command": "workbench.action.files.saveAll"
+  },
+  {
+    "key": "ctrl+k s",
+    "command": "workbench.action.files.saveAll",
+    "when": "editorTextFocus"
+  },
+
+  // ==================== CLOSE OTHERS ====================
+  {
+    "key": "ctrl+k w",
+    "command": "workbench.action.closeOtherEditors"
+  },
+
+  // ==================== BRACKET COLORIZATION ====================
+  {
+    "key": "ctrl+shift+[",
+    "command": "editor.action.selectToBracket",
+    "when": "editorTextFocus"
+  },
+
+  // ==================== HTML SPECIFIC ====================
+  {
+    "key": "ctrl+alt+t",
+    "command": "html-tag.close",
+    "when": "editorTextFocus"
+  },
+
+  // ==================== CSS SPECIFIC ====================
+  {
+    "key": "ctrl+shift+c",
+    "command": "css.sortProperties"
+  },
+
+  // ==================== FIND AND REPLACE ====================
+  {
+    "key": "ctrl+h",
+    "command": "editor.action.startFindReplaceAction"
+  },
+  {
+    "key": "ctrl+shift+h",
+    "command": "editor.action.replaceAll"
+  },
+
+  // ==================== SELECT ALL OCCURRENCES ====================
+  {
+    "key": "ctrl+shift+space",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorTextFocus"
+  }
+]

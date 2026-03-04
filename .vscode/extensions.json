@@ -1,13 +1,14 @@
 {
   "recommendations": [
-    "github.copilot",
-    "TabNine.tabnine-vscode",
-    "VisualStudioExptTeam.vscodeintellicode",
-    "ritwickdey.LiveServer",
+    "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "Zignd.html-css-class-completion",
-    "formulahendry.auto-close-tag",
     "formulahendry.auto-rename-tag",
-    "CoenraadS.bracket-pair-colorizer-2"
+    "formulahendry.auto-complete-tag",
+    "christian-kohler.path-intellisense",
+    "pranaygp.vscode-css-peek",
+    "ms-vscode.vscode-typescript-next",
+    "ecmel.vscode-html-css",
+    "zipicenteam.vscode-emmet",
+    "ritwickdey.liveserver"
   ]
 }

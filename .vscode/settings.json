@@ -1,29 +1,77 @@
 {
-  "editor.snippetSuggestions": "top",
+  // ==================== EMMET SETTINGS ====================
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.extensionsPath": [
+    "${workspaceFolder}/.vscode/snippets"
+  ],
+
+  // ==================== FILE SETTINGS ====================
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.encoding": "utf8",
+  "files.associations": {
+    "*.css": "css",
+    "*.html": "html",
+    "*.js": "javascript"
+  },
+
+  // ==================== EDITOR SETTINGS ====================
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": true,
+  "editor.lineNumbers": "on",
+  "editor.renderWhitespace": "selection",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.quickSuggestions": {
     "other": true,
     "comments": false,
-    "strings": true
+    "strings": false
   },
-  "editor.suggestSelection": "first",
-  "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "editor.formatOnSave": true,
-  "files.autoSave": "onFocusChange",
-  "emmet.includeLanguages": {
-    "javascript": "javascript",
-    "html": "html",
-    "css": "css"
-  },
+
+  // ==================== CSS SETTINGS ====================
   "css.validate": true,
-  "html.validate.scripts": true,
-  "liveServer.settings.host": "127.0.0.1",
+  "less.validate": true,
+  "scss.validate": true,
+
+  // ==================== LIVE SERVER ====================
+  "liveServer.settings.CustomBrowser": "chrome",
   "liveServer.settings.port": 5500,
-  "workbench.editor.enablePreview": false,
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.tabCompletion": "on",
-  "editor.parameterHints.enabled": true,
-  "editor.inlineSuggest.enabled": true
-}
-{
-  "livePreview.defaultPreviewPath": "/latihanport/tugas45/index.html"
+  "liveServer.settings.root": "/",
+
+  // ==================== PATH INTELLISENSE ====================
+  "path-intellisense.mappings": {
+    "${workspaceFolder}/": "${workspaceFolder}",
+    "/": "/"
+  },
+
+  // ==================== WORKSPACE SYNC ====================
+  "settingsSync.ignoredExtensions": [],
+
+  // ==================== TELEMETRY ====================
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+
+  // ==================== KEYBINDINGS ====================
+  // Note: User keybindings are stored in keybindings.json
+  // This is just workspace-specific settings
+
+  // ==================== SNIPPETS ====================
+  "snippets.snippets": {
+    "javascript": "${workspaceFolder}/.vscode/snippets/javascript.json",
+    "javascriptreact": "${workspaceFolder}/.vscode/snippets/javascript.json",
+    "typescript": "${workspaceFolder}/.vscode/snippets/javascript.json",
+    "typescriptreact": "${workspaceFolder}/.vscode/snippets/javascript.json",
+    "html": "${workspaceFolder}/.vscode/snippets/html.json",
+    "css": "${workspaceFolder}/.vscode/snippets/css.json",
+    "scss": "${workspaceFolder}/.vscode/snippets/css.json"
+  }
 }
