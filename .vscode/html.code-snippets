@@ -13,8 +13,8 @@
       "<body>",
       "  $0",
       "</body>",
-      "</html>"
-    ]
+      "</html>",
+    ],
   },
 
   "Nested .asik layout": {
@@ -29,8 +29,8 @@
       "      ${3:Inner text}",
       "    </div>",
       "  </div>",
-      "</div>$0"
-    ]
+      "</div>$0",
+    ],
   },
 
   "Box2 with box3": {
@@ -42,15 +42,121 @@
       "  <div class=\"box3\">",
       "    <h3>${1:Title}</h3>",
       "  </div>",
-      "</div>$0"
-    ]
+      "</div>$0",
+    ],
   },
 
   "Image from assets folder": {
     "scope": "html",
     "prefix": "assetimg",
     "body": [
-      "<img src=\"assets/${1:filename.png}\" alt=\"${2:description}\">$0"
-    ]
-  }
+      "<img src=\"assets/${1:filename.png}\" alt=\"${2:description}\">$0",
+    ],
+  },
+
+  "Navigation Structure": {
+    "scope": "html",
+    "prefix": "navpet",
+    "body": [
+      "<nav class=\"navigasion\">",
+      "  <img src=\"assets/Logo.png\" alt=\"Logo\">",
+      "  <p>${1:Navigation text}</p>",
+      "  <button>${2:Sign Up}</button>",
+      "  <div id=\"toggle\"><i class=\"fa-solid fa-bars\"></i></div>",
+      "</nav>$0",
+    ],
+  },
+
+  "Hero Section": {
+    "scope": "html",
+    "prefix": "heropet",
+    "body": [
+      "<section id=\"hero\">",
+      "  <div class=\"container-hero\">",
+      "    <div class=\"pet\">",
+      "      <h1>${1:Heading}</h1>",
+      "      <p>${2:Description}</p>",
+      "      <button>${3:CTA Button}</button>",
+      "    </div>",
+      "    <div class=\"img-hero\">",
+      "      <img src=\"assets/${4:image.png}\" alt=\"${5:Hero Image}\">",
+      "    </div>",
+      "  </div>",
+      "</section>$0",
+    ],
+  },
+
+  "Services Section": {
+    "scope": "html",
+    "prefix": "servicespet",
+    "body": [
+      "<div class=\"hero-two\">",
+      "  <div class=\"pet-food\">",
+      "    <img src=\"assets/Pet food icon (1).png\" alt=\"Pet Food\">",
+      "    <h4>${1:Pet Food}</h4>",
+      "    <p>${2:Description}</p>",
+      "  </div>",
+      "  <div class=\"toys\">",
+      "    <img src=\"assets/Accessories icon (1).png\" alt=\"Toys\">",
+      "    <h4>${3:Toys}</h4>",
+      "    <p>${4:Description}</p>",
+      "  </div>",
+      "  <div class=\"medical\">",
+      "    <img src=\"assets/Medical icon (2).png\" alt=\"Medical\">",
+      "    <h4>${5:Medical}</h4>",
+      "    <p>${6:Description}</p>",
+      "  </div>",
+      "  <div class=\"service\">",
+      "    <img src=\"assets/Grooming icon.png\" alt=\"Grooming\">",
+      "    <h4>${7:Grooming}</h4>",
+      "    <p>${8:Description}</p>",
+      "  </div>",
+      "</div>$0",
+    ],
+  },
+
+  "Footer Section": {
+    "scope": "html",
+    "prefix": "footerpet",
+    "body": [
+      "<footer>",
+      "  <div class=\"container-four\">",
+      "    <div class=\"end\">",
+      "      <div class=\"logos\">",
+      "        <img src=\"assets/Logo.png\" alt=\"Logo\">",
+      "      </div>",
+      "      <div class=\"email\">",
+      "        <p>${1:Email label}</p>",
+      "        <input type=\"email\" placeholder=\"${2:Enter email}\">",
+      "      </div>",
+      "      <div class=\"button\">",
+      "        <button>${3:Submit}</button>",
+      "      </div>",
+      "    </div>",
+      "    <div class=\"polic\">",
+      "      <div class=\"shop\">",
+      "        <p>${4:Shop}</p>",
+      "      </div>",
+      "      <div class=\"police\">",
+      "        <p>${5:Privacy Policy}</p>",
+      "      </div>",
+      "    </div>",
+      "  </div>",
+      "</footer>$0",
+    ],
+  },
+
+  "Link CSS External": {
+    "scope": "html",
+    "prefix": "linkcss",
+    "body": ["<link rel=\"stylesheet\" href=\"style.css\">$0"],
+  },
+
+  "Font Awesome Link": {
+    "scope": "html",
+    "prefix": "fontawesome",
+    "body": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css\">$0",
+    ],
+  },
 }

@@ -5,9 +5,7 @@
     "typescript": "typescriptreact"
   },
   "emmet.triggerExpansionOnTab": true,
-  "emmet.extensionsPath": [
-    "${workspaceFolder}/.vscode/snippets"
-  ],
+  "emmet.extensionsPath": ["${workspaceFolder}/.vscode/snippets"],
 
   // ==================== FILE SETTINGS ====================
   "files.autoSave": "afterDelay",
