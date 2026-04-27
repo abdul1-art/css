@@ -7,7 +7,7 @@
   align-items: center;
   padding: 10px 15px;
 }
-#navbar{
+#navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -20,6 +20,9 @@
 }
 #toggle {
   display: none;
+}
+.humber {
+  cursor: pointer;
 }
 #menu {
   width: 50vh;
@@ -41,7 +44,6 @@ a.active {
   color: #ffffff !important;
   width: 70px;
   border-radius: 5px;
-
 }
 nav p {
   display: none;
@@ -269,9 +271,7 @@ h4 {
   #toggle {
     display: none;
   }
-  .menu {
-    display: none;
-  }
+
   nav .fa-solid {
     display: none;
   }
